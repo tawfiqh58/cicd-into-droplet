@@ -15,7 +15,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }} # User of the server you want to ssh into
      
           script: |
-            mkdir test 
-            cd test 
             git clone git@github.com:tawfiqh58/cicd-into-droplet.git 
             echo 'Deployment successful to digital ocean' 
